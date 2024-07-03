@@ -1,0 +1,134 @@
+*{
+    font-family: "Inter", sans-serif;
+    background-color:#F1F0EE;
+  }
+  
+  #welcome-section h1{
+ 
+  font-size: 5.3rem;
+  letter-spacing: 1rem;
+  text-align:center;
+  padding-bottom: 140px;
+  padding-top: 300px;
+  margin-top:0px;
+
+  }
+  .nav-list {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:20px;
+    padding-right:15px;
+    padding-top: 10px;
+    
+}
+
+  
+  #welcome-section p{
+  
+  text-align:center;
+  display:flex;
+  letter-spacing: .2rem;
+  padding-left:100px;
+  }
+  #welcome-section a{
+    text-decoration:none;
+    color:black;
+  }
+  
+  #welcome-section a:hover{
+    text-decoration:none;
+    color:#F1F0EE;
+    background-color:black;
+  }
+  
+  
+  #about-me{
+    padding-bottom: 60px;
+  }
+  #about-me h3{
+    font-size:3rem;
+  letter-spacing: .2rem;
+  text-align:center;
+  }
+  
+.text-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.both-div{
+    display: flex;
+    padding-top:80px;
+ 
+}
+
+#about-me img{
+    margin:20px;
+}
+  #about-me p{
+    
+  letter-spacing: .2rem;
+   text-align: justify;
+  line-height: 1.5;
+  margin-left:50px;
+  margin-right:50px;
+  }
+  
+  #about-me p#resume {
+      letter-spacing: .2rem;
+      text-align: center;
+      line-height: 1.5;
+      margin-left: auto;
+      margin-right: auto;
+     cursor: pointer;
+   
+  }
+
+  #about-me a:visited {
+    color:transparent;
+  }
+  
+  #experience h3{
+    font-size:3rem;
+  letter-spacing: .2rem;
+  text-align:center;
+  }
+  
+  #experience p{
+   letter-spacing: .2rem;
+   text-align: justify;
+  line-height: 1.5;
+  margin-left:50px;
+  margin-right:50px;
+  }
+  
+  
+  
+  
+  #skills h3{
+    font-size:3rem;
+  letter-spacing: .2rem;
+  text-align:center;
+  }
+  
+  
+  #projects h3{
+    font-size:3rem;
+  letter-spacing: .2rem;
+  text-align:center;
+  }
+  
+  
+  
+  #contact h3{
+    font-size:3rem;
+  letter-spacing: .2rem;
+  text-align:center;
+  }

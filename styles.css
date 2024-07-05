@@ -20,7 +20,8 @@
     z-index: 9999;
     position: fixed;
     top: 0;
-    background-color: transparent;
+  
+    
     
   
   }
@@ -48,6 +49,9 @@
  
     background: transparent;
   backdrop-filter: blur(10px);
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
   
 
     
@@ -105,7 +109,7 @@
 }
   #about-me p{
   letter-spacing: .12rem;
-   text-align: justify;
+    text-align: justify;
   line-height: 1.7;
   margin-left:50px;
   margin-right:50px;
@@ -145,23 +149,62 @@
     display: flex;
     text-align: center;
     justify-content:center;
-    gap:30px;
+    gap:100px;
+    line-height: 3;
+    letter-spacing: .12rem;
 }
   
-  
+.roles-div h4 {
+    font-weight: 300;
+}
+
   
   #skills h3{
-    font-size:3rem;
+font-size:3rem;
   letter-spacing: .2rem;
   text-align:center;
   }
+
+  #skills h4{
+   
+      letter-spacing: .2rem;
+      text-align:center;
+      }
+
+  #skills p {
+    letter-spacing: .1rem;
+    text-align:center;
+  }
   
+.both-skil-type-and-names-div{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    gap:100px;
+    line-height: 3;
+    letter-spacing: .12rem;
+}
+
+.skill-type-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.skill-names-div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+}
   
   #projects h3{
     font-size:3rem;
   letter-spacing: .2rem;
   text-align:center;
   }
+
+
   
   
   

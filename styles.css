@@ -113,6 +113,7 @@
   line-height: 1.7;
   margin-left:50px;
   margin-right:50px;
+  font-weight: 300;
   
   }
   
@@ -124,6 +125,7 @@
       margin-right: auto;
      cursor: pointer;
      color:black;
+     font-weight: 300;
    
   }
 
@@ -144,12 +146,16 @@
   margin-left:50px;
   margin-right:50px;
   }
+
+  .dates-div{
+  
+  }
   
 .dates-and-roles-div{
     display: flex;
     text-align: center;
     justify-content:center;
-    gap:100px;
+    gap:150px;
     line-height: 3;
     letter-spacing: .12rem;
 }
@@ -174,6 +180,7 @@ font-size:3rem;
   #skills p {
     letter-spacing: .1rem;
     text-align:center;
+    font-weight: 300;
   }
   
 .both-skil-type-and-names-div{
@@ -195,9 +202,14 @@ font-size:3rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap:10px;
+    padding-top: 5px;
    
 }
   
+#projects {
+    padding-top: 100px;
+}
   #projects h3{
     font-size:3rem;
   letter-spacing: .2rem;
@@ -205,9 +217,58 @@ font-size:3rem;
   }
 
 
+  .label-div{
+    display: flex;
+    gap:700px;
+    justify-content: center;
+
+  }
   
+  .project-title{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding-left: 200px;
+}
+.project-title h4 {
+    letter-spacing: .2rem;
+    font-weight: 400;
+   
+}
   
+.project-title a {
+    color: black;
+}
+
+.project-title a:hover {
+    color:#F1F0EE;
+    background-color:black;
+  }
   
+
+  .project-utlized {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding-left: 300px;
+    
+  }
+
+  .project-utlized h4 {
+    letter-spacing: .1rem;
+    font-weight: 300;
+  }
+
+  .project-group {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    gap:10px;
+  }
+
+  #contact {
+    padding-top: 100px;
+  }
   #contact h3{
     font-size:3rem;
   letter-spacing: .2rem;
@@ -215,17 +276,28 @@ font-size:3rem;
   }
 
   #contact h4{
-font-size:2rem;
+    font-size:1rem;
   letter-spacing: .2rem;
   text-align:center;
-  font-weight: 450;
+  font-weight: 400;
+  
   }
 
-  #contact h4:hover{
-    
-      text-decoration:none;
-      color:#F1F0EE;
-      background-color:black;
+  .format-contacts{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+    justify-content:center;
    
-     
-      }
+  }
+
+ #contact a {
+    text-decoration: none;
+    color:black;
+ }
+
+ #contact  a:hover{
+    text-decoration:none;
+    color:#F1F0EE;
+    background-color:black;
+  }

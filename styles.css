@@ -128,6 +128,9 @@
      font-weight: 300;
    
   }
+  #resume a {
+    color: black;
+  }
 
   #about-me a:visited {
     color:transparent;

@@ -1,315 +1,294 @@
-*{
-    font-family: "Inter", sans-serif;
-    background-color:#F1F0EE;
-  }
- 
-  #welcome-section{
-    padding-bottom: 10px;
-  }
-  #welcome-section h1{
- 
+* {
+  font-family: "Inter", sans-serif;
+  background-color: #f1f0ee;
+}
+
+#welcome-section {
+  padding-bottom: 10px;
+}
+#welcome-section h1 {
   font-size: 5.3rem;
   letter-spacing: 1rem;
-  text-align:center;
+  text-align: center;
   padding-bottom: 180px;
   padding-top: 300px;
-  margin-top:0px;
-
-  }
+  margin-top: 0px;
+}
 .navbar {
-    z-index: 9999;
-    position: fixed;
-    top: 0;
-  
-    
-    
-  
-  }
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+}
 
-  .nav-list {
-    display: flex;
-    list-style: none;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap:25px;
-    padding-right:15px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    position: fixed;
-    top: 0px;
-    padding-left: 820px;
-    letter-spacing: .2rem;
-    margin:0;
-    background: #F1F0EE;
-    backdrop-filter: blur(10px);
-    
-    
+.nav-list {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 25px;
+  padding-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  position: fixed;
+  top: 0px;
+  padding-left: 820px;
+  letter-spacing: 0.2rem;
+  margin: 0;
+  background: #f1f0ee;
+  backdrop-filter: blur(10px);
 }
 .nav-list li a {
- 
-    background: #F1F0EE;
+  background: #f1f0ee;
   backdrop-filter: blur(10px);
   text-decoration: none;
   color: black;
   transition: color 0.3s ease;
-  
-
-    
 }
 
-  
-  #welcome-section p{
-  
-  text-align:center;
-  display:flex;
-  letter-spacing: .2rem;
-  padding-left:100px;
-
-  }
-  #welcome-section a{
-    text-decoration:none;
-    color:black;
-  }
-  
-  #welcome-section a:hover{
-    text-decoration:none;
-    color:#F1F0EE;
-    background-color:black;
-  }
-  
-  
-  #about-me{
-    padding-bottom: 60px;
-    padding-top: 90px;
-  }
-  #about-me h3{
-    font-size:3rem;
-  letter-spacing: .2rem;
-  text-align:center;
-  }
-  
-.text-div{
-    display: flex;
-    flex-direction: column;
+#welcome-section p {
+  text-align: center;
+  display: flex;
+  letter-spacing: 0.2rem;
+  padding-left: 100px;
+}
+#welcome-section a {
+  text-decoration: none;
+  color: black;
 }
 
-.img-div{
-    display: flex;
-    flex-direction: column;
+#welcome-section a:hover {
+  text-decoration: none;
+  color: #f1f0ee;
+  background-color: black;
 }
 
-.both-div{
-    display: flex;
-    padding-top:80px;
- 
+#about-me {
+  padding-bottom: 60px;
+  padding-top: 90px;
+}
+#about-me h3 {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
 }
 
-#about-me img{
-    margin:20px;
+.text-div {
+  display: flex;
+  flex-direction: column;
 }
-  #about-me p{
-  letter-spacing: .12rem;
-    text-align: justify;
+
+.img-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.both-div {
+  display: flex;
+  padding-top: 80px;
+}
+
+#about-me img {
+  margin: 20px;
+}
+#about-me p {
+  letter-spacing: 0.12rem;
+  text-align: justify;
   line-height: 1.7;
-  margin-left:50px;
-  margin-right:50px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-weight: 300;
-  
-  }
-  
-  #about-me p#resume {
-      letter-spacing: .15rem;
-      text-align: center;
-      line-height: 1.2;
-      margin-left: auto;
-      margin-right: auto;
-     cursor: pointer;
-     color:black;
-     font-weight: 300;
-   
-  }
-  #resume a {
-    color: black;
-  }
+}
 
-  #about-me a:visited {
-    color:transparent;
-  }
-  
-  #experience h3{
-    font-size:3rem;
-  letter-spacing: .2rem;
-  text-align:center;
-  }
-  
-  #experience p{
-   letter-spacing: .2rem;
-   text-align: justify;
+#about-me p#resume {
+  letter-spacing: 0.15rem;
+  text-align: center;
+  line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  color: black;
+  font-weight: 300;
+}
+#resume a {
+  color: black;
+}
+
+#about-me a:visited {
+  color: transparent;
+}
+
+#experience h3 {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  padding-top: 80px;
+}
+
+#experience p {
+  letter-spacing: 0.2rem;
+  text-align: justify;
   line-height: 1.5;
-  margin-left:50px;
-  margin-right:50px;
-  }
-
-  .dates-div{
-  
-  }
-  
-.dates-and-roles-div{
-    display: flex;
-    text-align: center;
-    justify-content:center;
-    gap:150px;
-    line-height: 3;
-    letter-spacing: .12rem;
+  margin-left: 50px;
+  margin-right: 50px;
 }
-  
+
+.dates-div {
+}
+
+.dates-and-roles-div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 150px;
+  line-height: 3;
+  letter-spacing: 0.12rem;
+}
+
 .roles-div h4 {
-    font-weight: 300;
-  
-
+  font-weight: 300;
 }
 
-  
-  #skills h3{
-font-size:3rem;
-  letter-spacing: .2rem;
-  text-align:center;
-  }
-
-  #skills h4{
-   
-      letter-spacing: .2rem;
-      text-align:center;
-      }
-
-  #skills p {
-    letter-spacing: .1rem;
-    text-align:center;
-    font-weight: 300;
-  }
-  
-.both-skil-type-and-names-div{
-    display: flex;
-    text-align: center;
-    justify-content:center;
-    gap:100px;
-    line-height: 3;
-    letter-spacing: .12rem;
+#skills h3 {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  padding-top: 150px;
 }
 
-.skill-type-div{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+#skills h4 {
+  letter-spacing: 0.2rem;
+  text-align: center;
 }
 
-.skill-names-div{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap:10px;
-    padding-top: 5px;
-   
+#skills p {
+  letter-spacing: 0.1rem;
+  text-align: center;
+  font-weight: 300;
 }
-  
+
+.both-skil-type-and-names-div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 100px;
+  line-height: 3;
+  letter-spacing: 0.12rem;
+}
+
+.skill-type-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.skill-names-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding-top: 5px;
+}
+
 #projects {
-    padding-top: 100px;
+  padding-top: 120px;
+
 }
-  #projects h3{
-    font-size:3rem;
-  letter-spacing: .2rem;
-  text-align:center;
-  }
+#projects h3 {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  padding-bottom: 50px;
+}
 
+.label-div {
+  display: flex;
+  gap: 700px;
+  justify-content: left;
+  padding-left: 150px;
+}
 
-  .label-div{
-    display: flex;
-    gap:700px;
-    justify-content: center;
-
-  }
-  
-  .project-title{
-    display: flex;
-    flex-direction: column;
-    gap:30px;
-    padding-left: 200px;
-   
+.project-title {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 40px;
 }
 .project-title h4 {
-    letter-spacing: .2rem;
-    font-weight: 400;
- text-align: center;
-
-   
+  letter-spacing: 0.2rem;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 20px;
 }
-  
+
 .project-title a {
-    color: black;
+  color: black;
 }
 
 .project-title a:hover {
-    color:#F1F0EE;
-    background-color:black;
-  }
-  
+  color: #f1f0ee;
+  background-color: black;
+}
 
-  .project-utlized {
-    display: flex;
-    flex-direction: column;
-    gap:35px;
-    padding-left: 300px;
+.project-utlized {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 200px;
+  margin-right: 20px;
+}
 
-    
-    
-  }
+.project-utlized h4 {
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+}
 
-  .project-utlized h4 {
-    letter-spacing: .1rem;
-    font-weight: 300;
-  }
+.project-group {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5px;
+  gap: 10px;
+  padding-top: 20px;
+  line-height: 2;
+}
 
-  .project-group {
-    display: flex;
-    flex-direction: row;
-    padding-left: 5px;
-    gap:10px;
-    padding-top: 20px;
-    line-height: 2;
-  }
+#contact {
+  padding-top: 150px;
+}
+#contact h3 {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
 
-  #contact {
-    padding-top: 100px;
-  }
-  #contact h3{
-    font-size:3rem;
-  letter-spacing: .2rem;
-  text-align:center;
-  }
-
-  #contact h4{
-    font-size:1rem;
-  letter-spacing: .2rem;
-  text-align:center;
+#contact h4 {
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
   font-weight: 400;
-  
-  }
+}
 
-  .format-contacts{
-    display: flex;
-    flex-direction: row;
-    gap:40px;
-    justify-content:center;
-   
-  }
+.format-contacts {
+  display: flex;
+  flex-direction: column;
 
- #contact a {
-    text-decoration: none;
-    color:black;
- }
+  justify-content: center;
 
- #contact  a:hover{
-    text-decoration:none;
-    color:#F1F0EE;
-    background-color:black;
-  }
+
+
+}
+
+#contact a {
+  text-decoration: none;
+  color: black;
+}
+
+#contact a:hover {
+  text-decoration: none;
+  color: #f1f0ee;
+  background-color: black;
+}
+
+hr {
+  margin-right: 40px;
+  margin-left: 40px;
+}

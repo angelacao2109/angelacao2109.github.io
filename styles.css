@@ -47,7 +47,7 @@
 }
 .nav-list li a {
  
-    background: transparent;
+    background: #F1F0EE;
   backdrop-filter: blur(10px);
   text-decoration: none;
   color: black;
@@ -256,8 +256,9 @@ font-size:3rem;
   .project-utlized {
     display: flex;
     flex-direction: column;
-    gap:30px;
+    gap:35px;
     padding-left: 300px;
+    
     
   }
 
